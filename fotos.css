@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Archivo:ital,wght@0,100..900;1,100..900&family=Kdam+Thmor+Pro&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #007bff; /* Cor de destaque no hover */
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.actor-cards-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.cards-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.banner-1 {
+    background-image: url('https://th.bing.com/th/id/R.75117a49004380b127e39069c1435c06?rik=35JAyzZHlW0TpQ&pid=ImgRaw&r=0');
+}
+
+.banner-2 {
+    background-image: url('https://i.pinimg.com/originals/2e/a0/ed/2ea0ed3b98021aa5a25dca730b3062da.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://static1.srcdn.com/wordpress/wp-content/uploads/2021/09/The-Batman-Jeffrey-Wright-Jim-Gordon.jpg');
+}

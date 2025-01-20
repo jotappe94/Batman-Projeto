@@ -3,12 +3,15 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #000;
     list-style: none;
     text-decoration: none;
+    color: #fff; /* Cor do texto branca em todos os elementos */
 }
 
+
 header {
+    background-color: black;
     height: 90px;
     display: flex;
     justify-content: space-around;
@@ -25,51 +28,57 @@ ul {
     justify-content: space-between;
 }
 
-li {
-    list-style: none;
-    color: aliceblue;
-    cursor: pointer;
-    font-size: 19px;
-    transition: .5s;
+
+body {
     font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: #fff;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-li:hover {
-    color: #D21617;
+h1 {
+    font-size: 2rem;
+    margin: 20px 0;
 }
 
-#logo{
+nav {
+    width: 60%;
+}
+
+#logo {
     width: 145px;
     height: auto;
 }
 
-#banner{
+#banner {
     background-image: url('https://i.redd.it/g58e53135nt71.jpg');
-    background-position: 40% 40%;
+    background-position: 65% 65%;
     background-size: cover;
     width: 100%;
     height: 600px;
 }
 
-#trailer-conatiner{
+#trailer-container {
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
 }
 
-.content{
+.content {
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.trailer{
+.trailer {
     width: 50%;
 }
 
-#sinopse{
+#sinopse {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -77,14 +86,14 @@ li:hover {
     margin-left: 30px;
 }
 
-.description{
+.description {
     color: #fff;
     font-size: 19px;
     font-family: 'Kdam Thmor Pro', sans-serif;
     width: 70%;
 }
 
-.button{
+.button {
     width: 200px;
     height: 60px;
     background-color: #D21617;
@@ -104,27 +113,26 @@ li:hover {
 }
 
 .button:hover {
-
     background-color: #fff;
     color: #000;
 }
 
-.actor-cards-container{
+.actor-cards-container {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.cards-content{
+.cards-content {
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
     column-gap: 40px;
 }
 
-.card{
+.card {
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -135,28 +143,31 @@ li:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: #fff;
+    padding: 0 0 20px 10px;
+    color: #fff;
     font-size: 17px;
     font-family: 'Kdam Thmor Pro', sans-serif;
-
 }
 
 
-.card:hover{
+
+.card:hover {
     transform: scale(1.02);
 }
-.banner-1{
-    background-image: url('https://noticiasdatv.uol.com.br/media/uploads/artigos_2021/batman-robert-pattinson-foto-divulgação-wanner-bros.jpg')
 
-.banner-2{
-    background-image: url('https://pbs.twing.com/media/FMOK4EiXEAURgip.jpg');
+.banner-1 {
+    background-image: url('https://th.bing.com/th/id/R.75117a49004380b127e39069c1435c06?rik=35JAyzZHlW0TpQ&pid=ImgRaw&r=0');
 }
 
-.banner-3{
-    background-image: url('https://static.wikia.nocookie.net/the-batman-universe/images/2/28/Jim_Gordon_Total_Film_still.jpg/revision/latest?cb=20220216015018');
+.banner-2 {
+    background-image: url('https://i.pinimg.com/originals/2e/a0/ed/2ea0ed3b98021aa5a25dca730b3062da.jpg');
 }
 
-footer{
+.banner-3 {
+    background-image: url('https://static1.srcdn.com/wordpress/wp-content/uploads/2021/09/The-Batman-Jeffrey-Wright-Jim-Gordon.jpg');
+}
+
+footer {
     height: 300px;
     margin-top: 50px;
     display: flex;
@@ -165,17 +176,18 @@ footer{
     justify-content: space-around;
 }
 
-span{
+span {
     color: #fff;
-    font-family: 'Kdam Thmor Pro', sans-serif;;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-.footer-navigation{
+.footer-navigation {
     display: none;
 }
 
-.footer-list{
+.footer-list {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
